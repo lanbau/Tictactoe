@@ -13,11 +13,6 @@ body.addEventListener('click', event => {
     tile.textContent = 'o'
     currentPlayer = 'one'
   }
-  console.log(tile)
-  console.log(tile.textContent)
-  console.log(currentPlayer)
-  console.log(event)
-
   var tile11 = document.querySelector('.row:nth-of-type(1) .tile:nth-of-type(1)').textContent
   var tile12 = document.querySelector('.row:nth-of-type(1) .tile:nth-of-type(2)').textContent
   var tile13 = document.querySelector('.row:nth-of-type(1) .tile:nth-of-type(3)').textContent
@@ -29,18 +24,6 @@ body.addEventListener('click', event => {
   var tile31 = document.querySelector('.row:nth-of-type(3) .tile:nth-of-type(1)').textContent
   var tile32 = document.querySelector('.row:nth-of-type(3) .tile:nth-of-type(2)').textContent
   var tile33 = document.querySelector('.row:nth-of-type(3) .tile:nth-of-type(3)').textContent
-
-  console.log(tile11)
-  console.log(tile12)
-  console.log(tile13)
-
-  console.log(tile21)
-  console.log(tile22)
-  console.log(tile23)
-
-  console.log(tile31)
-  console.log(tile32)
-  console.log(tile33)
 
   var rowx1 = (tile11 === 'x' && tile12 === 'x' && tile13 === 'x')
   var rowx2 = (tile21 === 'x' && tile22 === 'x' && tile23 === 'x')
