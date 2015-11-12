@@ -34,7 +34,7 @@ body.addEventListener('click', function (event) {
   if (rowx1 || rowx2 || rowx3) {
     console.log('Player X Wins!');
     document.getElementById('score').innerHTML = 'Player X Wins!';
-    var ans = prompt('Type yes To Play Again');
+    var ans = window.prompt('Type yes To Play Again');
     if (ans === 'yes') {
       window.location.reload();
     }
@@ -46,7 +46,6 @@ body.addEventListener('click', function (event) {
   if (rowo1 || rowo2 || rowo3) {
     console.log('Player O Wins!');
     document.getElementById('score').innerHTML = 'Player O Wins!';
-    var ans = prompt('Type yes To Play Again');
     if (ans === 'yes') {
       window.location.reload();
     }
@@ -58,7 +57,6 @@ body.addEventListener('click', function (event) {
   if (vertx1 || vertx2 || vertx3) {
     console.log('Player X Wins!');
     document.getElementById('score').innerHTML = 'Player X Wins!';
-    var ans = prompt('Type yes To Play Again');
     if (ans === 'yes') {
       window.location.reload();
     }
@@ -70,7 +68,6 @@ body.addEventListener('click', function (event) {
   if (verto1 || verto2 || verto3) {
     console.log('Player O Wins!');
     document.getElementById('score').innerHTML = 'Player O Wins!';
-    var ans = prompt('Type yes To Play Again');
     if (ans === 'yes') {
       window.location.reload();
     }
@@ -81,7 +78,6 @@ body.addEventListener('click', function (event) {
   if (diax1 || diax2) {
     console.log('Player X Wins!');
     document.getElementById('score').innerHTML = 'Player X Wins!';
-    var ans = prompt('Type yes To Play Again');
     if (ans === 'yes') {
       window.location.reload();
     }
@@ -92,7 +88,6 @@ body.addEventListener('click', function (event) {
   if (diao1 || diao2) {
     console.log('Player O Wins!');
     document.getElementById('score').innerHTML = 'Player O Wins!';
-    var ans = prompt('Type yes To Play Again');
     if (ans === 'yes') {
       window.location.reload();
     }
