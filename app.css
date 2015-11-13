@@ -14,6 +14,7 @@ body {
   display:inline-block;
   color:white;
   vertical-align: top; //resolve the x base issue
+  cursor: pointer;
 }
 
 #score {
